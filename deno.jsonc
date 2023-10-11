@@ -1,0 +1,12 @@
+{
+	"lock": false,
+	"tasks": {
+		"dev": "deno run -A ./scripts/dev.ts",
+		"bundle": "deno run -A ./scripts/bundle.ts",
+	},
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "https://esm.sh/preact",
+		"jsxFactory": "h"
+	}
+}
